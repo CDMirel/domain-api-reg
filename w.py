@@ -3,7 +3,7 @@
 # Changelog:
 #	- first version (Sun Sep 30 16:12:34 EEST 2018)
 
-import subprocess, sys
+import subprocess, sys, time
 from datetime import date
 from random import randint
 
@@ -26,3 +26,4 @@ while True:
 				print "+ we found \033[0;32m{}\033[0m free.".format(line.rstrip("\r\n"))
 				cmd = "curl https://localhost/api.php -X POST -F 'domeniu={}' -F 'extensie=ro'".format(line.replace(".ro", "").rstrip("\r\n"))
 				ps = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+			time.sleep(0.05)
