@@ -52,6 +52,6 @@ while True:
 				print "- we found \033[0;31m{}\033[0m reserved.".format(line.rstrip("\r\n"))
 				delete(sys.argv[1], line.rstrip("\r\n"))
 				save("deleted.txt", "{}".format(line.rstrip("\r\n")))
-			time.sleep(0.03)
+			time.sleep(0.09)
 
 # - END OF LINE -
