@@ -4,7 +4,9 @@
 #	- Don't hate me, hate the code.
 
 # Changelog:
-#	- first version v0.1 (Sun Sep 30 16:12:34 EEST 2018)
+#	version 0.1:
+#	- first version. (Sun Sep 30 16:12:34 EEST 2018)
+#	version 0.2:
 #	- added: time.sleep [slow/fast] check & fixed some lines. (Sun Sep 30 18:20:02 EEST 2018)
 #	- added: save domains [registered/reserved]. (Sun Sep 30 10:29:29 CDT 2018)
 #	- added: functions [whois/api/delete]. (Sun Sep 30 11:00:25 CDT 2018)
