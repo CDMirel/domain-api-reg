@@ -14,4 +14,4 @@ Simple tool to catch &amp; register domains. Working with RoTLD API (Romania Top
 1GoD11o6PMKi63Lpyppxz8BX7LP7GRMN8C - bitcoin
 
 
-Multumim!
+Sayonara skiddies!
