@@ -18,7 +18,7 @@ def save(argument1, argument2):
 		outfile.write(argument2+"\n")
 
 def whois(argument):
-	cmd = "echo '{}\r\n' | nc whois.rotld.ro -s 1.2.3.{} 43".format(argument.rstrip("\r\n"), randint(1, 254))
+	cmd = "echo '{}\r\n' | nc -i 1 whois.rotld.ro -s 1.2.3.{} 43".format(argument.rstrip("\r\n"), randint(1, 254))
 	ps = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 	return ps.communicate()[0]
 
