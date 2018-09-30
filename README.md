@@ -6,7 +6,7 @@ Simple tool to catch &amp; register domains. Working with RoTLD API (Romania Top
 "cmd = curl" - URL-ul catre API-ul de inregistrare.
 
 ATENTIE:
-*NU* imi asum nicio responsabilitate, este doar educativ, si este folosit pe propria ta raspundere, licentiat: GNU Free Software.
+*NU* ne asumam nicio responsabilitate, este doar educativ, il vei folosi pe propria ta raspundere, licentiat: GNU Free Software.
 
 # Donatie..
 1GoD11o6PMKi63Lpyppxz8BX7LP7GRMN8C - bitcoin
