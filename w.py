@@ -3,7 +3,7 @@
 # Changelog:
 #	- first version (Sun Sep 30 16:12:34 EEST 2018)
 
-import subprocess, sys, os
+import subprocess, sys
 from datetime import date
 from random import randint
 
