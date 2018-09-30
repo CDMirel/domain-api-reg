@@ -10,9 +10,10 @@
 #	- added: time.sleep [slow/fast] check & fixed some lines. (Sun Sep 30 18:20:02 EEST 2018)
 #	- added: save domains [registered/reserved]. (Sun Sep 30 10:29:29 CDT 2018)
 #	- added: functions [whois/api/delete]. (Sun Sep 30 11:00:25 CDT 2018)
+#	- added: delete yesterday domains reserved. (Sun Sep 30 11:23:08 CDT 2018)
 
 import subprocess, sys, time
-from datetime import date
+from datetime import date, timedelta
 from random import randint
 
 def save(argument1, argument2):
@@ -40,7 +41,9 @@ while True:
 			print "+ we check \033[0;36m{}\033[0m".format(line.rstrip("\r\n"))
 
 			today = date.today()
+			yesterday = oday = date.today() - timedelta(days=1)
 			t = "{:%Y-%m-%d}".format(today)
+			y = "{:%Y-%m-%d}".format(yesterday)
 			output = whois(line.rstrip("\r\n"))
 
 			if "entries" in output.split():
@@ -48,7 +51,7 @@ while True:
 				print "+ we found \033[0;32m{}\033[0m free.".format(line.rstrip("\r\n"))
 				save("registered.txt", "{}".format(line.rstrip("\r\n")))
 
-			elif t in output.split():
+			elif t in output.split() or y in output.split():
 				print "- we found \033[0;31m{}\033[0m reserved.".format(line.rstrip("\r\n"))
 				delete(sys.argv[1], line.rstrip("\r\n"))
 				save("deleted.txt", "{}".format(line.rstrip("\r\n")))
