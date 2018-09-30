@@ -1,5 +1,5 @@
 #!/bin/python
-# reg.py - ZmEu <zmeu@whitehat.ro>
+# domain.py - ZmEu <zmeu@whitehat.ro>
 # Changelog:
 #	- first version (Sun Sep 30 16:12:34 EEST 2018)
 
