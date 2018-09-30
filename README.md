@@ -1,5 +1,5 @@
 # domain-api-reg
-Simple tool to catch &amp; register domains. Working with RoTLD API (Romania Top Level Domain) and/or others API.
+Simple tool to catch & register domains - also working with RoTLD API (Romania Top Level Domain) and/or others API.
 - I'd love to hear from anyone using my little code on their boxens, mail me and tell me how you like it! :smiley:
 
 # Setari
