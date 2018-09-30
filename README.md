@@ -6,7 +6,7 @@ Simple tool to catch & register domains - also working with RoTLD API (Romania T
 - [x] "-s 1.2.3.{}" - IP range-ul tau, previne ban-ul catre WHOIS Server sau in caz contrar poate fi sters impreuna cu randinit.
 - [x] "cmd = curl" - URL-ul catre API-ul de inregistrare.
 - [x] "time.sleep" - rapid/slow.
-- [ ] ..inrest ? RTFM. :+1: :smiley:
+- [ ] ..inrest ? am adaugat in plus.. ce incetineste procesul, daca cunosti Linux iti vei da seama, daca nu RTFM. :+1: :smiley:
 
 # ATENTIE:
 **NU** ne asumam nicio responsabilitate, este doar educativ, il vei folosi pe propria ta raspundere, licentiat: GNU Free Software. https://www.gnu.org/licenses/licenses.html
