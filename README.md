@@ -5,6 +5,7 @@ Simple tool to catch &amp; register domains. Working with RoTLD API (Romania Top
 # Setari
 "-s 1.2.3.{}" - IP range-ul tau, previne ban-ul catre WHOIS Server sau in caz contrar poate fi sters impreuna cu randinit.
 "cmd = curl" - URL-ul catre API-ul de inregistrare.
+"time.sleep" - rapid/slow.
 
 # ATENTIE:
 *NU* ne asumam nicio responsabilitate, este doar educativ, il vei folosi pe propria ta raspundere, licentiat: GNU Free Software. https://www.gnu.org/licenses/licenses.html
