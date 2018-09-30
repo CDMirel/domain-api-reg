@@ -23,7 +23,7 @@ def whois(argument):
 	return ps.communicate()[0]
 
 def api(argument):
-	cmd = "curl htts://localhost/api --interface enp3s0 -X POST -F 'domeniu={}' -F 'extensie=ro'".format(argument.replace(".ro", "").rstrip("\r\n"))
+	cmd = "curl htts://localhost/api --interface ethX -X POST -F 'domeniu={}' -F 'extensie=ro'".format(argument.replace(".ro", "").rstrip("\r\n"))
 	ps = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
 while True:
