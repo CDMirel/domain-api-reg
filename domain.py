@@ -1,4 +1,5 @@
-#!/bin/python
+#!/usr/bin/python
+
 # domain.py - ZmEu <zmeu@whitehat.ro>
 # Changelog:
 #	- first version v0.1. (Sun Sep 30 16:12:34 EEST 2018)
