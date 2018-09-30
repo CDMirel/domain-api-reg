@@ -2,6 +2,7 @@
 # domain.py - ZmEu <zmeu@whitehat.ro>
 # Changelog:
 #	- first version (Sun Sep 30 16:12:34 EEST 2018)
+#	- added time.sleep() (Sun Sep 30 18:20:02 EEST 2018)
 
 import subprocess, sys, time
 from datetime import date
